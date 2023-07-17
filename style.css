@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color:white;
+    font-family: 'Ysabeau SC', sans-serif;
+    
+
+}
+
+body{
+    background: url("resources/berserk-dodorider.gif") no-repeat;
+    background-size: cover;
+
+}
+.navbar{
+    position: sticky;
+    top : 0;
+    display: flex;
+    padding: 1em;
+    background-color: rgba(68, 67, 67, 0.85);
+
+}
+.nav-logo{
+    width: 3em;
+    height: 3em;
+    object-fit: cover;
+    border-radius: 50%;
+    mix-blend-mode: multiply;
+    margin:auto 0;
+    margin-left:2em;
+
+    
+}
+p{
+    text-align: justify;
+    word-spacing: normal;
+    line-height: 2;
+    font-size: 1.2em;   
+}
+.nav-links{
+    margin-right: 1em;
+    padding: 1em;
+    color: white;
+    font-size: 20px;
+    
+
+}
+.nav-home{
+    margin-left: auto;
+
+}
+
+
+.layer1-section{
+    margin:2em auto;
+    margin-top : 5em;
+    padding: 4em;
+    width: 70%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 4em;
+    
+}
+
+.layer1-section-left{
+    margin-right : 2em;
+    padding: 0;
+    flex:1;
+
+}
+
+.layer1-section-right{
+    margin: 1em;
+
+    width: 300px;
+    height: 300px;
+    flex:1;
+}
+
+.layer1-section-left-title{
+    text-align: center;
+}
+
+.layer1-section-right-bg{
+    border-radius: 5%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.layer1-section-left-title{
+    font-size: 35px;
+}
+
+
+.layer1-btn-container{
+    display: flex;
+    justify-content: center;
+}
+.layer1-btn{
+
+    display: inline-block;
+    width:100px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    margin-top: 5px;
+
+}
+
+
+/*                SECTION 2             */
+.layer2{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+
+}
+.layer2-title{
+    margin: 0.5em auto;
+}  
+.layer2-items-container{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 3em;
+}
+
+.layer2-title{
+    font-size:40px;
+}
+.layer2-items-bg{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border: 4px solid rgb(192, 184, 184);
+    border-radius: 3%;
+    object-fit: cover;
+    align-content: center;
+}
+
+.layer2-items-info{
+    text-align: center;
+}
+
+/*                  SECTION 3                            */
+.layer3{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    padding: 10em   ;
+
+    
+}
+
+.layer3-content-quote-author{
+    align-self: flex-end;
+}
+
+
+
+/*                    SECTION 4                         */
+
+.layer4{
+    display:flex;
+    margin : 15px auto;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 50%;
+    padding: 3em;
+    box-shadow: 5px 5px 10px rgb(210, 117, 117,0.6);
+    border-radius: 15px;
+    
+}
+.layer4-section-right{
+    width: 50%;
+    display: flex;
+}
+.layer4-section-right-button{
+    margin: auto auto;
+    width:100px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    
+}
